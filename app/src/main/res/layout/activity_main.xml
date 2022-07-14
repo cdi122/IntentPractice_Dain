@@ -23,5 +23,5 @@
         android:id="@+id/sendMessgageBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="메세지를 다른화면을 전달"
+        android:text="메세지를 다른화면을 전달"></Button>
 </LinearLayout>
