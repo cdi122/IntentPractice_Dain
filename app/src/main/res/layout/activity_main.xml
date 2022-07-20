@@ -65,10 +65,23 @@
         android:layout_height="wrap_content"
         android:hint="전화번호 입력"
         android:inputType="phone"/>
+
     <Button
         android:id="@+id/dialBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="전화 연결 (DIAL)"/>
+        android:text="전화 연결 (DIAL)" />
+
+    <Button
+        android:id="@+id/callBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="전화 연결 (CALL)" />
+    <Button
+        android:id="@+id/smsBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="문자 전송 화면으로 이동"/>
+
 
 </LinearLayout>
